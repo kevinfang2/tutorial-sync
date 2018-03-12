@@ -3,10 +3,12 @@
   "main": "./lib/tutorial",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
-    "atom-workspace": "tutorial:toggle"
+    "atom-workspace": [
+      "tutorial:toggle",
+      "tutorial:update"
+    ]
   },
   "repository": "https://github.com/atom/tutorial",
   "license": "MIT",
@@ -14,5 +16,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "pubnub": "^4.20.2",
+    "request": "^2.73.0"
   }
 }
