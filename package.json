@@ -7,7 +7,7 @@
   "activationCommands": {
     "atom-workspace": [
       "tutorial:toggle",
-      "tutorial:update"
+      "tutorial:publish"
     ]
   },
   "repository": "https://github.com/atom/tutorial",

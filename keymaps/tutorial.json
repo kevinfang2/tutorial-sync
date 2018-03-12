@@ -1,6 +1,6 @@
 {
   "atom-workspace": {
     "ctrl-alt-p": "tutorial:toggle",
-    "ctrl-alt-o": "tutorial:update"
+    "ctrl-alt-o": "tutorial:publish"
   }
 }
